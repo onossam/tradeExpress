@@ -1,0 +1,49 @@
+
+.Review-0 p{ 
+    color: #FFFFFF;
+    opacity: 1;
+    font: normal normal normal 16px/21px Roboto;
+    font-size: 12px;
+    background: transparent url(../images/Union\ 1.svg)  0% 0% no-repeat padding-box;;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.review-img1{
+    width: 20px;
+    margin-right: 10px;
+}
+#review-img2{
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.Review-1{
+    margin-bottom: 20px;
+}
+.review-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-main h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    
+    .Review-0{
+        display: flex;
+        justify-content: center;
+
+    }
+    .Review-1{
+        margin: 10px;
+    }
+    .Review-0 p{
+        width: 220px;
+    }
+}
+

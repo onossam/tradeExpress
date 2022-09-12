@@ -1,0 +1,12 @@
+.instant-sect{
+    max-width: 500px;
+    margin: 5rem auto;
+}
+.instant-sect a{
+    text-decoration: none;
+    color: black;
+}
+.instant-sect button:hover{
+    background-color: blueviolet;
+    color: white;
+}

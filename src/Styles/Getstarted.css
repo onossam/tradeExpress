@@ -1,0 +1,8 @@
+.getstarted-sect{
+    max-width: 500px;
+    margin: 5rem auto;
+}
+
+.getstarted-sect button:hover{
+    background-color: blueviolet;
+}

@@ -1,0 +1,45 @@
+.sect-row{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    align-items: center;
+
+}
+.sect-row h2{
+    font-size: 12px;
+    margin: 1em;
+}
+
+.sect-row img{
+    width: 50px;
+    margin-left: 2px;
+}
+
+.sect-row button{
+    /* width: 15; */
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin: 1em;
+}
+
+@media only screen and (min-width: 768px){
+    .sect-row h2{
+        font-size: 25px;
+        
+    }
+    .sect-row p{
+        font-size: 17px;
+    }
+    .sect-row button{
+        margin: 1rem;
+        width: 200px;
+    }
+    .sect-row img{
+        width: 90px;
+        margin-left: 9px;
+    }
+}

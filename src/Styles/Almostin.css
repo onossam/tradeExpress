@@ -1,0 +1,33 @@
+.almostin-sect{
+    background: #FBF8FD 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px;
+opacity: 1;
+max-width: 500px;
+margin: auto;
+text-align: center;
+margin-top: 2rem;
+padding: 2rem;
+}
+
+#almostinsect{
+    text-align: center;
+font: normal normal 100 36px/48px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+font-weight: px;
+font-size: 30px;
+}
+.almostin-sect p{
+    margin: 10px auto;
+    width: 300px;
+    /* margin: auto; */
+}
+.almostin-sect a{
+    text-decoration: none;
+}
+.almostin-sect button{
+    background-color: #7C20BF;
+    color: white;
+    width: 70%;
+}

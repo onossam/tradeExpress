@@ -1,0 +1,44 @@
+.hero{
+    background-color: #561088;
+    color: white;
+    height: 70vh;
+    font-weight: 400;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 300%;
+}
+h1{
+    width: 35%;
+}
+p{
+    width: 65%;
+    font-size: 10px;
+}
+.hero button{
+    width: 15%;
+    border: none;
+    color: #561088;
+    font-size: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.hero img{
+    width:7% ;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .hero{
+        line-height: 200%;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    h1{
+        width: 40%;
+    }
+    .hero button{
+        width: 17%;
+    }
+}
