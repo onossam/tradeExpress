@@ -77,12 +77,9 @@ export default class Login extends React.Component {
             </div>
           </div>
           <div className="password-sect">
-            <div>
-            <input type="checkbox" id="rememberpass" />
-          Remember password
-            </div>
-          
-          <br />
+              <label > 
+              <input type="checkbox" id="rememberpass" />Remember Password
+              </label>
           <a href="">Forgot Password?</a>
           </div>
           <button type="submit">Log In</button>

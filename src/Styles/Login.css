@@ -19,6 +19,8 @@ padding: 2rem;
 .password-sect{
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
+
 }
 .login-hero h2{
     text-align: center;

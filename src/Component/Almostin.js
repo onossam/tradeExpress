@@ -1,5 +1,5 @@
 import React from 'react'
-import mailing from '../images/mailing.svg'
+import mailing from '../images/mailing (1).svg'
 import '../Styles/Almostin.css'
 
 const Almostin = () => {

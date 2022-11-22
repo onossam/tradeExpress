@@ -38,7 +38,12 @@ const Buy = () => {
         </select>
       </form>
       <h5>Amount</h5>
-      <select name="NGN" id="">NGN</select>
+      <form>
+        <div>
+          <span>$</span><input type="text" placeholder="Enter Amount" />
+        </div>
+      </form>
+      {/* <select name="NGN" id="">NGN</select> */}
       </div>
       
       <button className="buy-btn">Continue</button>
