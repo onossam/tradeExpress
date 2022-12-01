@@ -23,14 +23,24 @@
 .widget-pro  p{
     color: grey;
 } */
-
-.wid-pro{
+.widget-pro{
     display: flex;
     /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    border-bottom: 1px solid rgba(128, 128, 128, 0.499);
-    margin: 1rem;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:center;
+    /* align-items: center; */
+    margin: 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.499);
+}
+.wid-pro{
+    display: flex;
+    /* flex-basis: 1; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.499); */
+    /* margin: 1rem; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
 }

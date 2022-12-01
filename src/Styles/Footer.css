@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    padding: 3rem;
+    /* align-items: flex-end; */
+    padding: 1rem ;
 }
 .footer-hero li{
     list-style: none;
@@ -15,8 +15,14 @@
     color: #000000;
 
 }
+
+.footer-hero a:hover{
+    text-decoration: underline;
+    color: #000000;
+
+}
 .footer-hero h4{
-    padding: 1rem;
+    padding: 1rem 0;
 }
 @media only screen and (min-width: 768px){
     .footer-hero{

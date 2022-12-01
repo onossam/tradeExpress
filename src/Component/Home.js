@@ -21,8 +21,9 @@ const Header = () => {
           <button> Get started </button>
         </Link>
         <div>
-          <img src={apple} alt="" />
-          <img src={google} alt="" />
+          <a href="https://apps.apple.com" target='_blank'><img src={apple} alt="" /></a>
+          <a href="https://play.google.com/" target= '_blank'><img src={google} alt="" /></a>
+          
         </div>
       </div>
       <Widget/>

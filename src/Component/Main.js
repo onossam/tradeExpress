@@ -17,8 +17,9 @@ const Main = () => {
           <img src={payment} alt="" />
           <h4>Easy Mode of Payment</h4>
           <p>
-            People can now easily send and receive money from anywhere in the
-            world to purchase goods and pay for services.
+          Just like the internet, no single entity controls the Crypto network
+            which provides users transparency and privacy, which puts you in
+            absolute control of your money.
           </p>
         </div>
         <div className="row-gap">

@@ -8,9 +8,9 @@ import Mobile from "./Mobile";
 
 const Navbar = () => {
   const [state, setState] = useState(false);
-  const hamburgerIcon = <FaBars size="20px" color="white" onClick={() => setState(!state)}   /> 
+  const hamburgerIcon = <FaBars size="30px" color="white" onClick={() => setState(!state)}   /> 
 
-  const closeIcon = <FaTimes size="20px" color="white" onClick={() => setState(!state)} />
+  const closeIcon = <FaTimes size="30px" color="white" onClick={() => setState(!state)} />
 
 
   return (

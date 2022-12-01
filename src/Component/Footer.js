@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className='footer-hero'>
         <div>
+                <h4>Products</h4>
             <ul>
-                <a href=""><h4>Products</h4></a>
                 <a href=""><li>Bitcoin</li></a>
                 <a href=""><li>Alt</li></a>
                 <a href=""><li>Fiat</li></a>
@@ -18,16 +18,16 @@ const Footer = () => {
         </div>
 
         <div>
+                <h4>Learn</h4>
             <ul>
-                <a href=""><h4>Learn</h4></a>
                 <a href=""><li>Blog</li></a>
                 <a href=""><li>Help Center</li></a>
             </ul>
         </div>
 
         <div>
+                <h4>Contact</h4>
             <ul>
-                <a href=""><h4>Contact</h4></a>
                 <a href=""><li>hello@tradingexpress.com</li></a>
                 <a href=""><li>support@tradingexpress.com</li></a>
                 <a href=""><li><img src={allImg} alt="" /></li></a>
@@ -35,8 +35,8 @@ const Footer = () => {
         </div>
 
         <div>
+                <h4>Company</h4>
             <ul>
-                <a href=""><h4>Company</h4></a>
                 <a href=""><li>About us</li></a>
                 <a href=""><li>Careers</li></a>
                 <a href=""><li>Rates</li></a>
@@ -44,8 +44,8 @@ const Footer = () => {
             </ul>
         </div>
         <div>
+                <h4>Legal</h4>
             <ul>
-                <a href=""><h4>Legal</h4></a>
                 <a href=""><li>Privacy Policy</li></a>
                 <a href=""><li>Anti-Money Laundering</li></a>
                 <a href=""><li>Terms and Conditions</li></a>

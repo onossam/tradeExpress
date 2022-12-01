@@ -24,7 +24,7 @@
   }
 
   .nav-items:hover{
-    color: rgb(38, 22, 154);
+    /* color: rgb(38, 22, 154); */
     text-decoration: none;
   }
   
@@ -77,20 +77,20 @@
       display: block;
       display: flex;
       flex-direction: column;
-      background-color: rgb(2, 16, 28);
+      align-items: flex-end;
     }
 
     .Navbar__Link {
-      padding-top: 0.5rem;
-      /* margin: auto; */
-      /* border: 1px solid black; */
-      /* width: 19px; */
-      
+      padding-top: 1em;
+      /* margin: auto;
+      border: 1px solid black;
+      width: 19px; */
+     
     }
       
   .Navbar__Items {
       display:none;
-      background-color: #875ea360;
+      /* background-color: #875ea360; */
     }
     .Navbar__Items--right {
       margin-left:0;
@@ -105,6 +105,7 @@
       align-self: flex-end;
       display: initial;
       position: absolute;
+      top: 25px;
       cursor: pointer;
      } 
   
